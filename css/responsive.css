@@ -32,6 +32,17 @@
     .navbar-header{
         padding-top: 10px;
     }
+    .footer-wrapper{
+    background: #272727;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* padding: 20px 0 20px 0;*/
+}
+    .footer-link-container{
+        background: #080808;
+        text-align: center;
+    }
     
 
 }
@@ -49,4 +60,16 @@
 .navbar-collapse .navbar-nav{
     margin-left: 110px;
     }
+    .footer-wrapper{
+    background-image: url(http://preview.miamiwebservice.com/l3temp/wp-content/uploads/2016/03/l3-prefooter-bg.jpg);
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* padding: 20px 0 20px 0;*/
+}
+.footer-link-container{
+        background: transparent;
+        text-align: left;
+    }
+
 }

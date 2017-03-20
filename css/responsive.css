@@ -1,0 +1,52 @@
+/* Smallest Screen eg.iphone5 */
+@media (max-width: 320px) {
+    .topbar-full-container .topbar-container .topbar-links-container .topbar-links{
+        text-align: right !important;
+    }
+     .topbar-full-container .topbar-container .topbar-links-container .topbar-links{
+        text-align: right !important;
+    }
+    .navbar-header{
+        padding-top: 10px;
+    }
+    .navbar-collapse .navbar-nav{
+    margin-left: 0px ;
+    }
+}
+
+@media (max-width: 360px) {
+   
+}
+
+/* Standard Mobile Screen eg.Nexus 5x*/
+@media (min-width:375px) {
+    .topbar-full-container .topbar-container{
+        padding-bottom: 10px;
+    }
+    .topbar-full-container .topbar-container .topbar-links-container .topbar-links{
+        text-align: right !important;
+    }
+    .navbar-default .navbar-toggle:hover:before, .navbar-default .navbar-toggle:focus:before{
+        color: #464646 !important;
+    }
+    .navbar-header{
+        padding-top: 10px;
+    }
+    
+
+}
+
+/*Tablet Port */
+@media (min-width:768px) {
+   /* .topbar-full-container .topbar-container .topbar-links-container .topbar-links{
+        text-align: right !important;
+    }*/
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+.navbar-collapse .navbar-nav{
+    margin-left: 110px;
+    }
+}

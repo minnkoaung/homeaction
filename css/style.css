@@ -155,6 +155,7 @@ h3 {
 form input[type=text],
 .form-control,
 .select2-search input[type=text] {
+    height: 41px;
     border-radius: 0px;
     border: none;
     background: #b6b6b6;
@@ -226,4 +227,16 @@ form input[type=text],
 }
 
 
+/*--------------------------------- Room -------------------------------------*/
 
+.room-panel-body {
+    background: #f2f0f1;
+}
+
+.section-container {
+    margin-bottom: 20px;
+}
+
+.section-form-container {
+    margin-top: 33px;
+}

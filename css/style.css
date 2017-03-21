@@ -18,7 +18,8 @@
 .green {
     background: #83a920;
 }
-.textgreen{
+
+.textgreen {
     color: #83a920 !important;
 }
 
@@ -73,7 +74,7 @@ h3 {
 
 .main-nav-container {
     height: 80px;
-    z-index: 
+    z-index:
 }
 
 .navbar-inner-container {
@@ -108,9 +109,11 @@ h3 {
 .main-contents-container {
     margin-top: 50px;
 }
-.side-nav-group{
+
+.side-nav-group {
     margin-bottom: 10px;
 }
+
 .main-contents-container .main-contents-inner-container .side-nav-container a {
     display: block;
     height: 50px;
@@ -120,6 +123,7 @@ h3 {
     background-image: url('../img/sidebar-header-bg.png');
     background-repeat: no-repeat;
 }
+
 .main-contents-container .main-contents-inner-container .side-nav-container .family {
     background-image: url('../img/sidebar-header-bg2.png');
     background-repeat: no-repeat;
@@ -137,200 +141,89 @@ h3 {
     padding-left: 16px;
     line-height: 50px;
 }
+
 .main-contents-container .main-contents-inner-container .side-nav-container .sidebar-links:hover {
     background: #4a6600;
     color: #fff !important;
     text-transform: uppercase;
 }
-.btn{
+
+.btn {
     border-radius: 0px;
 }
-form input[type=text],.form-control, .select2-search input[type=text]{
+
+form input[type=text],
+.form-control,
+.select2-search input[type=text] {
     border-radius: 0px;
     border: none;
     background: #b6b6b6;
 }
-.btn-default{
+
+.btn-default {
     background: #4a6600;
 }
-.btn-default:hover{
+
+.btn-default:hover {
     background: #83a920;
 }
-.content-pic{
-    border: 2px solid #4a6600; 
+
+.content-pic {
+    border: 2px solid #4a6600;
 }
-.pic-btn{
+
+.pic-btn {
     display: block;
     width: 90%;
-    margin:10px auto;
+    margin: 10px auto;
 }
 
-
-.footer-wrapper{
+.footer-wrapper {
     background-image: url(http://preview.miamiwebservice.com/l3temp/wp-content/uploads/2016/03/l3-prefooter-bg.jpg);
     height: 270px;
     background-repeat: no-repeat;
     background-size: cover;
-   /* padding: 20px 0 20px 0;*/
+    /* padding: 20px 0 20px 0;*/
 }
-.footer{
+
+.footer {
     height: 270px;
     padding: 0px;
     margin: 0px;
     background: transparent;
 }
 
-.footer-link-container h4{
+.footer-link-container h4 {
     color: #fff;
 }
-.footer-link-container ul{
+
+.footer-link-container ul {
     list-style: none;
-    margin: 0px; padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
-.footer-link-container ul li a{
+
+.footer-link-container ul li a {
     color: #83a920 !important;
 }
 
 
 /*---------------------- kitchen ----------------------*/
 
-.panel-success .panel-heading{
+.panel-success .panel-heading {
     background: #83a920;
     color: #464646;
     text-transform: uppercase;
 }
-.content-pic{
+
+.content-pic {
     display: block;
     margin: 0px auto;
 }
-.kitchen-form h4{
+
+.kitchen-form h4 {
     color: #4a6600;
 }
 
 
-/*.navbar-default {
-    background: #83a920 !important;
-}
 
-.navbar-header {
-    min-height: 80px;
-}
-
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-    color: #000 !important;
-}
-
-.navbar-default .navbar-toggle:hover:before,
-.navbar-default .navbar-toggle:focus:before {
-    color: #b31925 !important;
-}
-
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-    border-color: #b31925 !important;
-    border-width: 2px;
-}
-
-.feature-grid img {
-    margin: 100px auto;
-}
-
-.single-grid {
-    width: 45%;
-    min-height: 300px;
-    background: #f8f4f3;
-    margin-bottom: 40px;
-    box-shadow: 1px 2px 5px #eaeaea;
-    margin-left: 46px;
-    float: left;
-}
-
-.single-grid img {
-    display: block;
-    margin: 0px auto;
-    padding: 20px 0 0px 0;
-}
-
-.single-grid p {
-    padding: 30px;
-    line-height: 2em;
-}
-
-.footer {
-    padding: 40px 0;
-    background: #f8f4f3;
-}
-
-.about-title {
-    padding: 30px 0 52px 0;
-    border-bottom: 1px solid #c2c1c1;
-}
-
-.about-feature-img-row {
-    width: 100%;
-    height: 538px;
-    background: url(../img/about-feature-img.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.social-row {
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
-.social-container {
-    padding-bottom: 80px;
-    border-bottom: 1px solid #c2c1c1;
-}
-
-.fb-btn {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-image: url(../img/icons/png/social_btn.png);
-    background-repeat: no-repeat;
-    background-position: 2px 2px;
-}
-
-.insta-btn {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-image: url(../img/icons/png/social_btn.png);
-    background-repeat: no-repeat;
-    background-position: -60px 2px;
-}
-
-.gplus-btn {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-image: url(../img/icons/png/social_btn.png);
-    background-repeat: no-repeat;
-    background-position: -126px 2px;
-}
-
-.lind-btn {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-image: url(../img/icons/png/social_btn.png);
-    background-repeat: no-repeat;
-    background-position: -187px 2px;
-}
-
-.form-control,
-.select2-search input[type=text] {
-    border: 2px solid #d2c6ac;
-}
-
-.btn-default {
-    background: #343434;
-}
-
-.btn-default:hover {
-    background: #b31925;
-}*/

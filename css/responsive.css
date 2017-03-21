@@ -1,75 +1,76 @@
 /* Smallest Screen eg.iphone5 */
+
 @media (max-width: 320px) {
-    .topbar-full-container .topbar-container .topbar-links-container .topbar-links{
+    .topbar-full-container .topbar-container .topbar-links-container .topbar-links {
         text-align: right !important;
     }
-     .topbar-full-container .topbar-container .topbar-links-container .topbar-links{
+    .topbar-full-container .topbar-container .topbar-links-container .topbar-links {
         text-align: right !important;
     }
-    .navbar-header{
+    .navbar-header {
         padding-top: 10px;
     }
-    .navbar-collapse .navbar-nav{
-    margin-left: 0px ;
+    .navbar-collapse .navbar-nav {
+        margin-left: 0px;
     }
 }
 
-@media (max-width: 360px) {
-   
-}
+@media (max-width: 360px) {}
+
 
 /* Standard Mobile Screen eg.Nexus 5x*/
+
 @media (min-width:375px) {
-    .topbar-full-container .topbar-container{
+    .topbar-full-container .topbar-container {
         padding-bottom: 10px;
     }
-    .topbar-full-container .topbar-container .topbar-links-container .topbar-links{
+    .topbar-full-container .topbar-container .topbar-links-container .topbar-links {
         text-align: right !important;
     }
-    .navbar-default .navbar-toggle:hover:before, .navbar-default .navbar-toggle:focus:before{
+    .navbar-default .navbar-toggle:hover:before,
+    .navbar-default .navbar-toggle:focus:before {
         color: #464646 !important;
     }
-    .navbar-header{
+    .navbar-header {
         padding-top: 10px;
     }
-    .footer-wrapper{
-    background: #272727;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-   /* padding: 20px 0 20px 0;*/
-}
-    .footer-link-container{
+    .footer-wrapper {
+        background: #272727;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* padding: 20px 0 20px 0;*/
+    }
+    .footer-link-container {
         background: #080808;
         text-align: center;
     }
-    
-
 }
+
 
 /*Tablet Port */
 @media (min-width:768px) {
-   /* .topbar-full-container .topbar-container .topbar-links-container .topbar-links{
+    /* .topbar-full-container .topbar-container .topbar-links-container .topbar-links{
         text-align: right !important;
     }*/
 }
 
 
 /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-.navbar-collapse .navbar-nav{
-    margin-left: 110px;
+
+@media only screen and (min-width: 1224px) {
+    .navbar-collapse .navbar-nav {
+        margin-left: 110px;
     }
-    .footer-wrapper{
-    background-image: url(http://preview.miamiwebservice.com/l3temp/wp-content/uploads/2016/03/l3-prefooter-bg.jpg);
-    height: 270px;
-    background-repeat: no-repeat;
-    background-size: cover;
-   /* padding: 20px 0 20px 0;*/
-}
-.footer-link-container{
+    .footer-wrapper {
+        background-image: url(http://preview.miamiwebservice.com/l3temp/wp-content/uploads/2016/03/l3-prefooter-bg.jpg);
+        height: 270px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* padding: 20px 0 20px 0;*/
+    }
+    .footer-link-container {
         background: transparent;
         text-align: left;
     }
-
 }

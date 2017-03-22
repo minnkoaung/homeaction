@@ -54,6 +54,12 @@
     /* .topbar-full-container .topbar-container .topbar-links-container .topbar-links{
         text-align: right !important;
     }*/
+    .navbar-nav {
+        margin-left: 100px;
+    }
+    .navbar-nav li a {
+        font-size: 0.7em;
+    }
 }
 
 
@@ -73,5 +79,8 @@
     .footer-link-container {
         background: transparent;
         text-align: left;
+    }
+    .navbar-nav li a {
+        font-size: 0.8em;
     }
 }

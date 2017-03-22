@@ -113,6 +113,11 @@ h3 {
     background: #4a6600;
 }
 
+.navbar-default .navbar-toggle:hover:before,
+.navbar-default .navbar-toggle:focus:before {
+    color: #34495e;
+}
+
 .main-contents-container {
     margin-top: 50px;
 }
